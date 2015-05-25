@@ -14,6 +14,7 @@
 		EA5A3B4C1B1356C80083913E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A3B4B1B1356C80083913E /* Images.xcassets */; };
 		EA5A3B4F1B1356C80083913E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5A3B4D1B1356C80083913E /* LaunchScreen.xib */; };
 		EA5A3B5B1B1356C80083913E /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A3B5A1B1356C80083913E /* testTests.m */; };
+		EA5A3B661B1357E00083913E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A3B651B1357E00083913E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EA5A3B541B1356C80083913E /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5A3B591B1356C80083913E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5A3B5A1B1356C80083913E /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		EA5A3B641B1357E00083913E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EA5A3B651B1357E00083913E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				EA5A3B4B1B1356C80083913E /* Images.xcassets */,
 				EA5A3B4D1B1356C80083913E /* LaunchScreen.xib */,
 				EA5A3B3E1B1356C80083913E /* Supporting Files */,
+				EA5A3B641B1357E00083913E /* Person.h */,
+				EA5A3B651B1357E00083913E /* Person.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				EA5A3B471B1356C80083913E /* ViewController.m in Sources */,
 				EA5A3B441B1356C80083913E /* AppDelegate.m in Sources */,
+				EA5A3B661B1357E00083913E /* Person.m in Sources */,
 				EA5A3B411B1356C80083913E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
